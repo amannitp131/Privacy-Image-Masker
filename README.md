@@ -116,31 +116,8 @@ Start all three services in separate terminals:
    - Apply masking to sensitive areas
 3. **Download Result**: View and download the masked image with PII redacted
 
-## 🔧 Configuration
 
-### Environment Variables
 
-Create `.env` files in each component directory:
-
-**Backend/.env**
-```env
-PORT=3001
-AI_SERVICE_URL=http://127.0.0.1:8001
-```
-
-**Service/.env**
-```env
-PORT=8001
-MODEL_PATH=./yolov8n.pt
-```
-
-### Model Configuration
-
-The AI service uses YOLOv8 nano model (`yolov8n.pt`) for object detection. You can replace this with other YOLO models for better accuracy:
-- `yolov8s.pt` (small)
-- `yolov8m.pt` (medium)
-- `yolov8l.pt` (large)
-- `yolov8x.pt` (extra large)
 
 ## 🧪 API Documentation
 
