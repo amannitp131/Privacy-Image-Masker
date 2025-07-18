@@ -86,6 +86,8 @@ Start all three services in separate terminals:
 1. **Start the AI Service** (Port 8001)
    ```bash
    cd Service
+   python -m venv venv
+   venv\Scripts\activate  # (on Windows)
    uvicorn main:app --host 0.0.0.0 --port 8001
    ```
 
