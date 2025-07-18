@@ -57,7 +57,7 @@ The project consists of three main components:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/amannitp131/Info_Detector.git
-   cd Info_Detector
+   
    ```
 
 2. **Set up the AI Service**
@@ -69,7 +69,7 @@ The project consists of three main components:
 
 3. **Set up the Backend**
    ```bash
-   cd ../Backend
+   cd ..Backend
    npm install
    ```
 
