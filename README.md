@@ -220,12 +220,6 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 For support, email amanmis601@gmail.com or create an issue in the GitHub repository.
 
-## 🙏 Acknowledgments
 
-- YOLO v8 by Ultralytics
-- EasyOCR by JaidedAI
-- spaCy by Explosion AI
-- Next.js by Vercel
-- FastAPI by Sebastián Ramirez
 
 ---
